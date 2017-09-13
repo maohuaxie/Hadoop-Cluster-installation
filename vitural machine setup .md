@@ -25,7 +25,7 @@ auto eth0
 
 iface eth0 inet static
 
-address 192.168.107.160
+address 192.168.107.200(other three: 192.168.107.201; 192.168.107.202; 192.168.107.203)
 
 gateway 192.168.107.2 // you could get the infor from the properties of your network
 

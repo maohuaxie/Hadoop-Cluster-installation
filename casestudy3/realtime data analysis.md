@@ -1,6 +1,5 @@
-##############realtime data analysis with spark and kafka#################
 
-Topic covered in this case study as bleow:
+Topics are covered in this case study as bleow:
 
 1: realtime order data will be sending to kafka with topic "gender":
 
@@ -10,6 +9,6 @@ Topic covered in this case study as bleow:
 
 4: Flask will build a web App to take the data of topic "result":
 
-5. With Flask-SocketIO, we can show the realtime data to customers:
+5: With Flask-SocketIO, we can show the realtime data to customers:
 
-6. with js socketio and js hightlights.js can show the data intutively and dynamiclly:
+6: with js socketio and js hightlights.js can show the data intutively and dynamiclly:

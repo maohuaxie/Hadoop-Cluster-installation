@@ -1,5 +1,5 @@
 
-# Topic covered in this case study as bleow:
+# Topics are covered in this case study as bleow:
 
 1: realtime order data will be sending to kafka with topic "gender":
 

@@ -1,6 +1,4 @@
 ### clean data 
-
-
 user_log.csv data format:
 1. user_id 
 2. item_id 

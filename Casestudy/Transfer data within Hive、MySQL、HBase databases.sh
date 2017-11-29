@@ -550,7 +550,6 @@ hadoop@dblab-VirtualBox:/usr/local/bigdatacase$ ^C
 hadoop@dblab-VirtualBox:/usr/local/bigdatacase$ 
 
 
-
 hbase(main):005:0> truncate 'user_action'
 Truncating 'user_action' table (it may take a while):
  - Disabling table...
@@ -625,3 +624,19 @@ ROW                                                COLUMN+CELL
  100004                                            column=f1:province, timestamp=1510333663342, value=\xE5\xB1\xB1\xE4\xB8\x9C                                                                       
  100004                                            column=f1:uid, timestamp=1510333663342, value=101480065                                                                                           
 10 row(s) in 0.1550 seconds
+# # It took about 2 hours to finish ETL 23290000 files from local to Hbase with Java API, ETL data from mysql to Hbase was much fast than this.
+23190000
+23200000
+23210000
+23220000
+23230000
+23240000
+23250000
+23260000
+23270000
+23280000
+23290000
+Total Time: 12943513 ms
+hadoop@dblab-VirtualBox:~$ 
+
+

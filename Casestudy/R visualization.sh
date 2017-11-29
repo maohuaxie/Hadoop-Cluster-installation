@@ -39,6 +39,18 @@ user_action <- dbGetQuery(conn,'select * from user_action')
 > conn <- dbConnect(MySQL(),dbname='dblab',username='root',password='hadoop',host="127.0.0.1",port=3306)
 > user_action <- dbGetQuery(conn,'select * from user_action')
 
+> library(RMySQL)
+Loading required package: DBI
+> conn <- dbConnect(MySQL(),dbname='dblab',username='root',password='hadoop',host="127.0.0.1",port=3306)
+> user_action <- dbGetQuery(conn,'select * from user_action')
+> summary(user_action$behavior_type)
+   Length     Class      Mode 
+ 23291027 character character 
+> summary(as.numeric(user_action$behavior_type))
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  1.000   1.000   1.000   1.106   1.000   4.000 
+### we have 23291027 records, it take a while to finish loading the data
+
 ### summarize the customer behavior data
 
 > summary(user_action$behavior_type)
